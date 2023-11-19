@@ -1,9 +1,17 @@
 {
-  "name": "design-system",
-  "version": "0.0.0",
+  "name": "@ellieschieder/design-system",
+  "version": "0.0.1",
   "type": "module",
+  "license": "MIT",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellieschieder/design-system.git"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",

@@ -48,6 +48,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ellieschieder/design-system@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@ellieschieder/design-system@workspace:."
+  dependencies:
+    "@yarnpkg/sdks": "npm:^3.1.0"
+    minze: "npm:^1.10.0"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.0.0"
+    vite-plugin-dts: "npm:^3.6.3"
+    vite-plugin-minze: "npm:^1.1.5"
+  languageName: unknown
+  linkType: soft
+
 "@esbuild/android-arm64@npm:0.19.5":
   version: 0.19.5
   resolution: "@esbuild/android-arm64@npm:0.19.5"
@@ -1046,19 +1059,6 @@ __metadata:
   checksum: 625ce28e1b5ad10cf77057b9a6a727bf84780c17660f6644dab61dd34c23de3001f03cedc401f7d30a4ed9965c2e8a7336e220a329146f2cf85d4eddea429782
   languageName: node
   linkType: hard
-
-"design-system@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "design-system@workspace:."
-  dependencies:
-    "@yarnpkg/sdks": "npm:^3.1.0"
-    minze: "npm:^1.10.0"
-    typescript: "npm:^5.2.2"
-    vite: "npm:^5.0.0"
-    vite-plugin-dts: "npm:^3.6.3"
-    vite-plugin-minze: "npm:^1.1.5"
-  languageName: unknown
-  linkType: soft
 
 "diff@npm:^5.1.0":
   version: 5.1.0
